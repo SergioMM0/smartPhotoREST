@@ -1,0 +1,15 @@
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\bin\Debug\net7.0\Entities.dll
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\bin\Debug\net7.0\Entities.pdb
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+C:\Users\sergi\Desktop\Arduino Projects\smartPhoto\Rest API\smartPhotoREST\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
