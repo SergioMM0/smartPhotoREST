@@ -20,9 +20,12 @@ public class MqttService
 
     static void MqttClientPhotoReceived(object sender, MqttMsgPublishEventArgs e)
     {
+        //prints out the data received
         byte[] data = e.Message;
         string dataString = System.Text.Encoding.Default.GetString(data);
         Console.WriteLine(e.Message.Length);
         Console.WriteLine(dataString);
+        
+        
     }
 }

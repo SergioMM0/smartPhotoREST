@@ -71,9 +71,4 @@ public class SmartPhotoController:ControllerBase
         var savedPhoto = _photoRepository.SavePhoto(photo);
         return Ok(savedPhoto);
     }
-    
-    
-    
-    
-
 }
