@@ -15,6 +15,7 @@ public class PhotoDbContext : DbContext
         builder.Entity<Photo>()
             .Property(p => p.Id)
             .ValueGeneratedOnAdd();
+        
     }
     
     public DbSet<Photo> PhotoTable { get; set; }

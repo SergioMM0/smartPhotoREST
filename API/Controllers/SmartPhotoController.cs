@@ -11,40 +11,10 @@ namespace API.Controllers;
 public class SmartPhotoController:ControllerBase
 {
     private PhotoRepository _photoRepository;
-    //public MqttClientService MQTTclient;
-    
-
-
     public SmartPhotoController(PhotoRepository repository)
     {
         _photoRepository = repository;
-        //MQTTclient = new MqttClientService();
-        //MQTTclient.Handle_Received_Application_Message();
     }
-
-    /*
-    [HttpGet]
-    [Route("getConnection")]
-    public async void GetConnection()
-    {
-        var options = new MqttClientOptionsBuilder()
-            .WithTcpServer("mqtt.flespi.io", 1883)
-            .WithCredentials("t60iunhGAss20vZ245rrjaasZjUAlSRCOFI7SPBh7T9VdWO7S3pZ1nhQw0eFGU7j", "")
-            .Build();
-
-        var factory = new MqttFactory();
-        var mqttClient = factory.CreateMqttClient();
-
-        await mqttClient.ConnectAsync(options, CancellationToken.None);
-
-        var message = new MqttApplicationMessageBuilder()
-            .WithTopic("Test/Mqtt")
-            .WithPayload("Hello World")
-            .Build();
-
-        await mqttClient.PublishAsync(message, CancellationToken.None); 
-    }
-*/
     [HttpGet]
     [Route("CreateDB")]
     public String CreateDb()
@@ -55,9 +25,11 @@ public class SmartPhotoController:ControllerBase
 
     [HttpGet]
     [Route("getAllPhotos")]
-    public object GetAllPhotos()
+    public ActionResult<Photo[]> GetAllPhotos()
     {
-        return _photoRepository.GetAllPhotos();
+        List<Photo> photos = _photoRepository.GetAllPhotos();
+        photos.Reverse();
+        return Ok(photos);
     }
 
     [HttpPost("savePhoto")]
@@ -65,7 +37,8 @@ public class SmartPhotoController:ControllerBase
     {
         var photo = new Photo
         {
-            RawPhoto = rawPhoto
+            RawPhoto = rawPhoto,
+            Time = DateTime.UtcNow
         };
 
         var savedPhoto = _photoRepository.SavePhoto(photo);
